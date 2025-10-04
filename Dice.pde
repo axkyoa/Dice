@@ -28,7 +28,7 @@ void draw() {
   textSize(28);
 
   if (clickCount >= 10) {
-    text(" YOU WIN! THE JACKPOT!!!! ", width/2, height - 25);
+    text(" !YOU WIN! ", width/2, height - 25);
     clickCount = 0; // reset after winning
   } else {
     text("TOTAL: " + total, width / 2, height - 25);
