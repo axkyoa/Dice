@@ -26,9 +26,9 @@ void draw() {
 
   fill(255, 215, 0);
   textSize(28);
-
+  textAlign(CENTER,CENTER);
   if (clickCount >= 10) {
-    text(" !YOU WIN! ", width/2, height - 25);
+    text(" !YOU WIN! A BRAND NEW CAR! ", width/2, height - 25);
     clickCount = 0; // reset after winning
   } else {
     text("TOTAL: " + total, width / 2, height - 25);
